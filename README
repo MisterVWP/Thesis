@@ -5,7 +5,9 @@ through random repair of a biased dataset.
 
 To run the repair code you must first run the dataprep and disparate code.
 
+============
 Abstract 
+============
 
 Machine learning systems use datasets that could have biases in their data. 
 These biases could cause unwanted biases in decision making towards groups 
