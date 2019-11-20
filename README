@@ -14,7 +14,7 @@ These biases could cause unwanted biases in decision making towards groups
 with sensitive attribute such as race, gender and sexual orientation [5][7]. 
 
 A possible method to address this problem is a preprocessing method called 
-Random Repair which was introduced in [3] in 2018 [3]. 
+Random Repair which was introduced in [1] in 2018. 
 
 In this thesis we provide insights on the effects that random repair has on 
 fairness and classifier accuracy in machine learning systems. We applied 
@@ -29,5 +29,6 @@ Our research shows that increasing the demographic parity in both datasets,
 through random repair causes the desired amount of fairness but also results 
 in a classifier accuracy loss in both classifiers.
 
-
-
+SOURCE:
+1. Eustasio Del Barrio, Fabrice Gamboa, Paula Gordaliza, Jean-Michel Loubes.
+Obtaining fairness using optimal transport theory. Pages 1-17. 2018
