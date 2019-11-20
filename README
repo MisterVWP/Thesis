@@ -5,4 +5,27 @@ through random repair of a biased dataset.
 
 To run the repair code you must first run the dataprep and disparate code.
 
+Abstract 
+
+Machine learning systems use datasets that could have biases in their data. 
+These biases could cause unwanted biases in decision making towards groups 
+with sensitive attribute such as race, gender and sexual orientation [5][7]. 
+
+A possible method to address this problem is a preprocessing method called 
+Random Repair which was introduced in [3] in 2018 [3]. 
+
+In this thesis we provide insights on the effects that random repair has on 
+fairness and classifier accuracy in machine learning systems. We applied 
+random repair on the adult income dataset and on the COMPAS recidivism dataset. 
+These datasets are known to be biased datasets [5][13]. For each dataset, we 
+compared the fairness and accuracy of a logistic regression classifier and a 
+random forest classifier after preprocessing the datasets with no repair and 
+random repair. In this thesis we measure the fairness called demographic parity
+of our classifiers by calculating the disparate impact index. 
+
+Our research shows that increasing the demographic parity in both datasets, 
+through random repair causes the desired amount of fairness but also results 
+in a classifier accuracy loss in both classifiers.
+
+
 
