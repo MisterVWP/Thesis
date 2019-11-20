@@ -1,1 +1,8 @@
-here the code for my thesis and all necersarry files
+Here you can find my thesis and the code used for my thesis about:
+
+Optimizing fairness in machine learning systems 
+through random repair of a biased dataset.
+
+first run dataprep and disparate before running the repair code.
+
+
