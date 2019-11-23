@@ -35,8 +35,10 @@ of our classifiers by calculating the disparate impact index.
 Our research shows that increasing the demographic parity in both datasets, 
 through random repair causes the desired amount of fairness but also results 
 in a classifier accuracy loss in both classifiers.
+
 ======================
 SOURCE original code:
 ========================
+
 1. Eustasio Del Barrio, Fabrice Gamboa, Paula Gordaliza, Jean-Michel Loubes.
 Obtaining fairness using optimal transport theory. Pages 1-17. 2018
