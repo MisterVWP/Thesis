@@ -7,10 +7,11 @@ through random repair of a biased dataset.
 Tutorial
 ===========
 To run the repair code you must first run the dataprep and disparate code.
-Then run the code till line 875 to get all overview and graphs of Random repair with the logistic and random forest classifer.
+Then run the code till line 802 for the adult income datset and 875 for the COMPAS recidivism dataset 
+to get all overview and graphs of Random repair with the logistic and random forest classifer.
 
 For more details in classifications made look at what amount of repair(lambda) gives the desired amount of fairness 
-(Disparate Impact) and then manualy adjust at line 875 the coded_data_repair3 and coded_data_repair4 to 
+(Disparate Impact) and then manualy adjust at line 802(adult) or 875(compas); the coded_data_repair3 and coded_data_repair4 to 
 x_repair_LO_0XX and x_repair_RF_0XX where XX equals the desired amount of fairness. Then run the rest of the code.
 
 ============
