@@ -2,8 +2,15 @@ Here you can find my thesis and the code used for my thesis about:
 
 Optimizing fairness in machine learning systems 
 through random repair of a biased dataset.
-
+============
+Tutorial
+===========
 To run the repair code you must first run the dataprep and disparate code.
+Then run the code till line 875 to get all overview and graphs of Random repair with the logistic and random forest classifer.
+
+For more details in classifications made look at what amount of repair(lambda) gives the desired amount of fairness 
+(Disparate Impact) and then manualy adjust at line 875 the coded_data_repair3 and coded_data_repair4 to 
+x_repair_LO_0XX and x_repair_RF_0XX where XX equals the desired amount of fairness. Then run the rest of the code.
 
 ============
 Abstract 
@@ -28,7 +35,8 @@ of our classifiers by calculating the disparate impact index.
 Our research shows that increasing the demographic parity in both datasets, 
 through random repair causes the desired amount of fairness but also results 
 in a classifier accuracy loss in both classifiers.
-
-SOURCE:
+======================
+SOURCE original code:
+========================
 1. Eustasio Del Barrio, Fabrice Gamboa, Paula Gordaliza, Jean-Michel Loubes.
 Obtaining fairness using optimal transport theory. Pages 1-17. 2018
